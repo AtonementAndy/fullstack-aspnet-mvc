@@ -23,7 +23,7 @@ O que eu usei?
 
 # English
 
-I created a complete project to test implementations and some of the most commonly used libraries in ASP.NET Core projects focusing on the back-end. This project is running in the cloud. I used Microsoft Azure to host not only the MVC App but also the SQL Server database. Both are running and functioning perfectly. As part of my studies, I implemented a three-layer API (Repository Pattern), CQRS, and Mediator in the Controller, promoting a significant decoupling that facilitates both refactoring and adjustments in case of issues.
+I project created to test implementations and some of the most commonly used libraries in ASP.NET Core projects focusing on the back-end. This project is running in the cloud. I used Microsoft Azure to host not only the MVC App but also the SQL Server database. Both are running and functioning perfectly. As part of my studies, I implemented a three-layer API (Repository Pattern), CQRS, and Mediator in the Controller, promoting a significant decoupling that facilitates both refactoring and adjustments in case of issues.
 
 In the link below, you can access the project on Azure. Feel free to test it by creating, updating, and deleting records, and if you wish, you can leave a note! (Thank you for testing).
 
