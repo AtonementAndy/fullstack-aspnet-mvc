@@ -1,4 +1,4 @@
-## Projeto fullstack-aspnet-mvc
+## Projeto Fullstack em Aspnet MVC
 
 Um projeto que criei para testar implementações e algumas da bibliotecas mais usadas em projetos ASPNET Core focando no back-end. Esse projeto está rodando na nuvem. Utilizei o Microsoft Azure para hospedar não só o App MVC, mas também o banco de dados SQL Server. Amboas rodando e funcionando perfeitamente. Com teor de estudos, implementei uma API de 3 camadas(Repository Pattern), CQRS, Mediator na Controller, promovendo assim um grande desacoplamento, nos facilitando tanto o refatoramento, como em cado de quebra fica fácil o ajuste.
 
