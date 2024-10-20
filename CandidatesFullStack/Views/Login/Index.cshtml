@@ -1,0 +1,37 @@
+@using BeeEngineering.Domain.Models
+@model Login
+
+@{
+    ViewData["Title"] = "Página de Login";
+}  
+
+<head>
+    <link rel="stylesheet" href="~/css/login.css"/>
+</head>
+
+@* <div class="login-container">
+    <h2>Login</h2>
+    <input type="email" placeholder="Email" required/>
+    <input type="password" placeholder="Senha" required />
+</div> *@
+
+<div class="login-container">
+        <form asp-controller="Login" asp-action="Login" method="post">
+            <div class="mb-3">
+                <label for="inputName">E-mail</label>
+                <input type="email" asp-for="Email" class="form-control col-xs-4" id="email" placeholder="Digite seu e-mail">
+                @Html.ValidationMessageFor(x => x.Email)
+            </div>
+
+            <div class="mb-3">
+                <label for="inputSurname">Senha</label>
+                <input type="password" asp-for="Password" class="form-control col-xs-4" id="senha" placeholder="Digite sua senha">
+                @Html.ValidationMessageFor(x => x.Password)
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-outline-primary submit">Salvar</button>
+                <a class="btn btn-outline-secondary" asp-controller="Login" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+    </div>

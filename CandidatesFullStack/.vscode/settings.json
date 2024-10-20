@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
+  "appService.defaultWebAppToDeploy": "/subscriptions/95e85746-5199-499c-b533-c650df1c6d90/resourceGroups/sistemamvc/providers/Microsoft.Web/sites/registercandidates"
+}
