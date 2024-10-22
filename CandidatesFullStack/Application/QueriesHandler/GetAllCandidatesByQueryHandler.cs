@@ -14,7 +14,7 @@ namespace BeeEngineering.Application.QueriesHandler
 
         public async Task<List<CandidateDto>> Handle(GetAllCandidatesQuery request, CancellationToken cancellationToken)
         {
-            _logger.LogInformation($"Getting a candidate through CQRS.");
+            _logger.LogInformation($"Getting a candidates through CQRS.");
 
             var candidates = await _candidateService.GetAll();
             return _mapper.Map<List<CandidateDto>>(candidates);

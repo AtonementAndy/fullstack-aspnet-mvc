@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wsfurnas\\Documents\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj": {}
+    "C:\\Users\\Wsfurnas\\Documents\\Programming\\HTML\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wsfurnas\\Documents\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj": {
+    "C:\\Users\\Wsfurnas\\Documents\\Programming\\HTML\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wsfurnas\\Documents\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj",
+        "projectUniqueName": "C:\\Users\\Wsfurnas\\Documents\\Programming\\HTML\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj",
         "projectName": "CandidatesFullStack",
-        "projectPath": "C:\\Users\\Wsfurnas\\Documents\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj",
+        "projectPath": "C:\\Users\\Wsfurnas\\Documents\\Programming\\HTML\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj",
         "packagesPath": "C:\\Users\\Wsfurnas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wsfurnas\\Documents\\fullstack-aspnet-mvc\\CandidatesFullStack\\obj\\",
+        "outputPath": "C:\\Users\\Wsfurnas\\Documents\\Programming\\HTML\\fullstack-aspnet-mvc\\CandidatesFullStack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -86,13 +86,19 @@ namespace BeeEngineering.Controllers
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
-            var query = new DeleteCandidateCommand(id);
+            var query = new GetCandidateByIdQuery(id);
             var candidate = await _mediator.Send(query);
-            _logger.LogInformation($"Candidate {candidate.Name} Id: {candidate.Id} has been deleted");
+            if (candidate == null)
+            {
+                return NotFound();
+            }
+            _logger.LogInformation($"Candidate {candidate.Name} Id: {candidate.Id} has been found for deletion");
             return View(candidate);
         }
 
         [HttpPost]
+        [ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             try

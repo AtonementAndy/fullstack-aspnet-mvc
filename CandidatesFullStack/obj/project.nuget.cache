@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lCpfbV1qCnE=",
+  "dgSpecHash": "ag7oCdJJMsk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wsfurnas\\Documents\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj",
+  "projectFilePath": "C:\\Users\\Wsfurnas\\Documents\\Programming\\HTML\\fullstack-aspnet-mvc\\CandidatesFullStack\\CandidatesFullStack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wsfurnas\\.nuget\\packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
     "C:\\Users\\Wsfurnas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -53,54 +53,10 @@
   ],
   "logs": [
     {
-      "code": "NU1903",
+      "code": "NU1900",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Data.SqlClient' 2.1.4 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
-      "libraryId": "Microsoft.Data.SqlClient",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Extensions.Caching.Memory' 6.0.1 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-qj66-m88j-hmgj",
-      "libraryId": "Microsoft.Extensions.Caching.Memory",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.IdentityModel.JsonWebTokens' 6.8.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "Microsoft.IdentityModel.JsonWebTokens",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1904",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'System.Drawing.Common' 4.7.0 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
-      "libraryId": "System.Drawing.Common",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'System.IdentityModel.Tokens.Jwt' 6.8.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
+      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://api.nuget.org/v3/index.json."
     }
   ]
 }
